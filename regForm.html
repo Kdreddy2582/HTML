@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reg Form</title>
+  </head>
+  <body>
+    <form action="login.html" method="post">
+      <h1>Registration Form</h1>
+      <p>
+        <label for="fname">First Name</label>
+        <input type="text" name="fname" id="fname" required />
+      </p>
+      <p>
+        <label for="lname">Last Name</label>
+        <input type="text" name="lname" id="lname" />
+      </p>
+      <p>
+        <label for="businessName">Business Name</label>
+        <input type="text" nam="bname" id="businessName" />
+      </p>
+      <p>
+        <label for="address1">Address 1</label>
+        <input type="text" name="address1" id="address1" />
+      </p>
+      <p>
+        <label for="address1"> Address 2</label>
+        <input type="text" name="address2" id="address1" />
+      </p>
+      <p>
+        <label for="city">City</label>
+        <input type="text" name="city" id="city" />
+      </p>
+      <p>
+        <label for="region">Region</label>
+        <input type="text" name="region" id="region" />
+      </p>
+      <p>
+        <label for="pcode">Post Code</label>
+        <input type="number" name="pcode" id="pcode" />
+      </p>
+      <p>
+        <label for="country"> Country </label>
+        <select name="country" id="country">
+          <option value="india">India</option>
+          <option value="china">China</option>
+          <option value="malaysia">Malaysia</option>
+        </select>
+      </p>
+      <p>
+        <label for="phoneno">Phone Number</label>
+        <input type="tel" name="phoneno" id="phoneno" />
+      </p>
+      <p>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" />
+      </p>
+      <p>
+        <input type="submit" value="Register Now" name="regForm" />
+        <!-- <input type="reset" /> -->
+      </p>
+    </form>
+  </body>
+</html>

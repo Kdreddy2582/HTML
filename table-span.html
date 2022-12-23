@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <table border="1" cellspacing="0" cellpadding="5">
+      <caption>
+        This is colspan and rowspan
+      </caption>
+      <colgroup>
+        <col span="1" style="background-color: #fff;" />
+        <col span="1" style="background-color: #70db8b" />
+      </colgroup>
+
+      <thead style="background-color: #8ecfd8">
+        <tr>
+          <th>Student ID</th>
+          <th>Student Name</th>
+          <th>City</th>
+          <td>Phone Number</td>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Jhon Deo</td>
+          <td>Hyderabad</td>
+          <td>8106972793</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Jhon Deo</td>
+          <td colspan="2">Hyderabad</td>
+        </tr>
+        <tr>
+          <td rowspan="3">3</td>
+          <td>Jhon Deo</td>
+          <td>Hyderabad</td>
+          <td>8106972793</td>
+        </tr>
+        <tr>
+          <td>Jhon Deo</td>
+          <td>Hyderabad</td>
+          <td>8106972793</td>
+        </tr>
+        <tr>
+          <td>Jhon Deo</td>
+          <td>Hyderabad</td>
+          <td>8106972793</td>
+        </tr>
+      </tbody>
+
+      <tfoot style="background-color: #000; color:#fff">
+        <tr>
+          <td></td>
+          <td>Jhon Deo</td>
+          <td>Hyderabad</td>
+          <td>8106972793</td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>
